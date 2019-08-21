@@ -19,11 +19,7 @@
     "http": "^0.0.0",
     "md5": "^2.2.1",
     "mongoose": "^5.5.10",
-<<<<<<< HEAD
-    "sendgrid": "2.0.0"
-=======
     "nodemailer": "^6.3.0"
->>>>>>> 4cb819651ae1b6e8fb1eae9e814b03c311f6ddbd
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
