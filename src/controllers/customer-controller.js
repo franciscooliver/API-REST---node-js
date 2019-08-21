@@ -24,8 +24,11 @@ exports.post = async(req, res, next) => {
 
         });
 
+<<<<<<< HEAD
         email_service.sendemail( req.body.email, 'Bem vindo ao node store', global.EMAIL_TMPL.replace('{0}', req.body.name));
 
+=======
+>>>>>>> 4cb819651ae1b6e8fb1eae9e814b03c311f6ddbd
         res.status(201).send({
             message: "Cliente cadastrado com sucesso!"
         });
